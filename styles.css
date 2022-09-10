@@ -50,8 +50,34 @@
     text-align: center;
 }
 
-#hobbies-list{
-    list-style-type: none; 
+#hobbies-list {
+    list-style-type: none;
     text-align: left;
+}
+
+.container-contact-me {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    text-align: center;
+}
+
+#contact-me-table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.logos {
+    width: 100px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 3px;
+    background-color: grey;
+    color: white;
+
 }
 
