@@ -1,0 +1,57 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-profile-pic {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+#profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profile-desc {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.container-skills {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+#skills-title {
+    margin-left: 350px;
+}
+
+#skills-desc {
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-hobbies {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-top: 100px;
+}
+
+#hobbies-title {
+    margin-right: 350px;
+}
+
+#hobbies-table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#hobbies-list{
+    list-style-type: none; 
+    text-align: left;
+}
+
