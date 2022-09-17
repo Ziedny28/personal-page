@@ -6,139 +6,147 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
-
-    <title>Ziedny's personal site</title>
-
+    <title>Ziedny's Personal Page </title>
 </head>
 
 <body>
+    <div class="top">
+        <!--  -->
+        <h2 class="redish" style="">Ziedny</h2>
 
-    <!-- foto profil -->
+        <!-- nav bar ala ala-->
+        <ul id="nav-bar">
+            <li><a class="no-dec" href="">Home</a></li>
+            <li><a class="no-dec" href="">About</a></li>
+            <li><a class="no-dec" href="">Services</a></li>
+            <li><a class="no-dec" href="">Portos</a></li>
+            <li><a class="no-dec" href="">Resume</a></li>
+            <li><a class="no-dec" href="">Blog</a></li>
+            <li><a class="no-dec" href="">Contact</a></li>
+        </ul>
+    </div>
 
-    <div class="container-profile-pic">
+    <div class="content">
 
-        <!-- gambar profil -->
-        <img id="profile-pic" src="img/img.png" alt="">
+        <h4 id="halo">Hola!</h4>
+        <h1>Saya Ziedny Bisma Mubarok</h1>
+        <p class="left-text">Saya adalah pelajar dengan pengalaman belajar selama 13 tahun.</p>
+        <a class="no-dec" href="">
+            <div class="rounded-corner-box">Detail pendidikan</div>
+        </a>
 
-        <!-- keterangan -->
-        <table id="profile-desc">
-            <tr>
-                <td>Hola, Saya Ziedny</td>
-            </tr>
-            <tr>
-                <td>Sedang Belajar di Polinema</td>
-            </tr>
-        </table>
+
+        <!-- gambar bashar -->
+        <img class="images" style="float: right; position:static; margin-top: -200px;"
+            src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/03/13/bashar-al-assad.jpg?width=982&height=726&auto=webp&quality=75"
+            alt="">
+
+        <img class="images" style="margin-top: 200px; outline: solid 5px #fe4d6a;" src="img/Zied2.jpg" alt="">
+
+        <div class="right-text">
+            <h2>Saya Pelajar di <strong class="redish">Polinema</strong></h2>
+            <p>Saya sekarang belajar di polinema, saya mengambil jurusan TI, di sini saya belajar ilmu komputer, mulai
+                dari
+                java, web, hingga AI, hal yang saya pelajari membuat saya siap dalam dunia kerja</p>
+            <p>Saya juga pernah mengikuti pelatihan desain grafis yang diajarkan kominfo pada 2022, bertajuk VSGA JGD
+            </p>
+            <table>
+                <tr>
+                    <td>Nama </td>
+                    <td>: Ziedny</td>
+                </tr>
+                <tr>
+                    <td>Usia </td>
+                    <td>: 19</td>
+                </tr>
+                <tr>
+                    <td>Alamat </td>
+                    <td>: Tumpang</td>
+                </tr>
+                <tr>
+                    <td>Nomor </td>
+                    <td>: 083167059442</td>
+                </tr>
+                <tr>
+                    <td>e-mail</td>
+                    <td>: mubarokziedny@gmail.com</td>
+                </tr>
+            </table>
+
+            <br>
+            <a class="no-dec" href="">
+                <div class="rounded-corner-box">Hubungi saya</div>
+            </a>
+
+        </div>
+
+        <div class="skills">
+            <h2>My <strong class="redish">Skills</strong></h2>
+            <table style="margin-right: auto; margin-left:auto; outline: solid 5px white;">
+                <tr>
+                    <td>
+                        <h3>Coding</h3>
+
+                    </td>
+                    <td>
+                        <h3>Design</h3>
+                    </td>
+                    <td>
+                        <h3>Game</h3>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="padding-table-skills">
+
+                        <img class="img-skills" src="img/coding.png" alt="">
+                    </td>
+                    <td class="padding-table-skills">
+
+                        <img class="img-skills" src="img/desing.png" alt="">
+                    </td>
+                    <td class="padding-table-skills">
+
+                        <img class="img-skills" src="img/gaming.png" alt="">
+                    </td>
+                </tr>
+            </table>
+
+            <div class="portos">
+                <h1>My <strong class="redish">Designs</strong></h1>
+
+                <table style="margin-right: auto; margin-left:auto;outline: solid 5px white;">
+                    <tr>
+                        <td>
+                            <h3>Infographic</h3>
+                        </td>
+                        <td>
+                            <h3>logo</h3>
+                        </td>
+                        <td>
+                            <h3>Post IG</h3>
+                        </td>
+                    </tr>
+                    <tr style="margin-top: 50px;">
+                        <td>
+                            <img src="img/porto-infografis.png" alt="">
+                        </td>
+                        <td>
+                            <img src="img/porto-logo.png" alt="">
+                        </td>
+                        <td>
+                            <img src="img/porto-post-ig.png" alt="">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
 
     </div>
 
-    <!-- foto profil end -->
-
-    <!-- content -->
-
-    <br>
-    <!-- skills -->
-    <div class="container-skills">
-        <h3 id="skills-title">My Skills</h3>
-        <br>
-        <!-- table bersarang/nested untuk nama skill -->
-        <table>
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Design</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Web Dev</td>
-                            <td>⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Speak English</td>
-                            <td>⭐⭐⭐</td>
-                        </tr>
-                        <tr>
-                            <td>Will To Learn New Things</td>
-                            <td>⭐⭐⭐⭐</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
 
 
-        <br>
-
-        <p id="skills-desc">Sebelumnya, sebenarnya skill saya masih belum banyak, namun ada beberapa skill yang saya
-            kuasai, misalnya desain, yang saya pelajari dari <a href="https://digitalent.kominfo.go.id/">DTS</a>, yang
-            diadakan oleh <a href="https://www.kominfo.go.id/">kominfo</a> pada 2022, dan saya terpilih menjadi peserta
-            terbaik. skill lain yang saya miliki adalah berbicara bahasa inggris, skill ini saya dapatkan dari
-            bertahun-tahun belajar, baik di sekolah, internet, dan lani-lain, walau masih dasar, saya akan bilang skill
-            bahasa inggris saya cukup. skill lain adalah kemauan untuk belajar, dan ini menurut saya adalah skill yang
-            mengarahkan saya pada ilmu/skill lain yang sangat berguna, saya suka belajar hal-hal baru, dan
-            menyelesaikannya</p>
-    </div>
-    <!-- hobbies end -->
-
-
-    <!-- hobbies -->
-    <div class="container-hobbies">
-        <h3 id="hobbies-title">My Hobbies</h3>
-        <table id="hobbies-table">
-            <tr>
-                <td>
-                    <ul id="hobbies-list">
-                        <li>Bermain Game</li>
-                        <li>Menonton video youtube</li>
-                        <li>Menonton film/series</li>
-                        <li>Jalan jalan random</li>
-                        <li>Belajar dari internet</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-        <p style="width:700px; text-align: left; margin-left: 680px;">Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Quia aut dolor non optio vel dolorem
-            inventore, beatae ea expedita vero deserunt qui aperiam facere incidunt ex quaerat animi itaque
-            laudantium iusto fuga laborum ipsa possimus odit! Corrupti quo aliquid fugiat, voluptate tempora
-            accusamus? Atque quis, saepe illum vel temporibus dolores hic corporis vero ipsa quam officiis, sint
-            eius. Pariatur ad laudantium officia quam iusto optio voluptas eos cupiditate ea eveniet possimus
-            similique recusandae molestias saepe tempore, enim aperiam, nihil vel provident sunt molestiae
-            error. Obcaecati magni vel temporibus, sapiente natus mollitia amet perspiciatis atque, ratione,
-            alias modi qui provident a!</p>
-    </div>
-    <!-- hobbies end -->
-
-    <!-- contact me -->
-    <div class="container-contact-me">
-        <h3>Contact Me</h3>
-        <p>Saya akan sangat menghargai jika anda berkenan bekerja sama dengan saya</p>
-        <table id="contact-me-table">
-            <tr>
-                <td><a href="https://www.instagram.com/ziedny_mubarok/"><img class="logos" src="img/ig.png"
-                            alt="instagram logo"></a></td>
-                <td><a href="mailto:mubarokziedny@gmail.com"><img class="logos" src="img/mail.png" alt=""></a></td>
-            </tr>
-        </table>
-    </div>
-    <!-- contact me end -->
-
-    <!-- content end -->
-
-    <!-- footer -->
-    <div class="footer">
-        <footer>
-            <p>Author: Ziedny<br>
-                <p>copyright: @ziedny</p>
-
-        </footer>
-    </div>
-    <!-- footer end -->
 </body>
+
+
 
 </html>

@@ -1,83 +1,122 @@
-.body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container-profile-pic {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 50px;
-}
-
-#profile-pic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#profile-desc {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    margin-bottom: 200px;
-}
-
-.container-skills {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-}
-
-#skills-title {
-    margin-left: 350px;
-}
-
-#skills-desc {
-    width: 700px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.container-hobbies {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
-    margin-top: 100px;
-}
-
-#hobbies-title {
-    margin-right: 350px;
-}
-
-#hobbies-table {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-#hobbies-list {
-    list-style-type: none;
-    text-align: left;
-}
-
-.container-contact-me {
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 300px;
-    margin-bottom: 300px;
-    text-align: center;
-}
-
-#contact-me-table {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-.logos {
-    width: 100px;
-}
-
-footer {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 3px;
-    background-color: grey;
+* {
+    /* keseluruhan */
+    background-color: #3a3973;
+    font-family: Helvetica;
     color: white;
-
 }
+
+body{
+    margin-left: 100px; margin-right: 100px
+}
+
+.top{
+    
+}
+
+#nav-bar {
+    /* agar navigasi ada di kanan */
+    float: right;
+}
+
+.redish {
+    /* beberapa text memerlukan warna ini */
+    color: #fe4d6a;
+}
+
+#nav-bar {
+    /* agar list navbar tidak ada bullets/titik */
+    list-style-type: none;
+    /* agar navbar mengarah ke samping */
+    display: flex;
+    /* agar naik */
+    margin-top: -35px;
+}
+
+.no-dec {
+    /* agar link tidak muncul garis bawah */
+    text-decoration: none;
+    /* agar ada jarak */
+    padding-left: 30px;
+}
+
+
+.no-dec:hover{
+    /* ketika kena mouse */
+    /* warna dibah menjadi kemerahan */
+    color: #fe4d6a;
+    /* warna diubah dalam jangka 0.5s */
+    transition: color .5s;
+    
+}
+
+#halo{
+    margin-top: 200px;
+}
+
+.left-text{
+    width: 30%;
+}
+
+.images{
+    width: 400px;
+}
+
+.right-text{
+    float: right;
+    width: 40%;
+    margin-top: -600px;
+    margin-left: 100px;
+}
+
+.rounded-corner-box{
+    background-color: #fe4d6a;
+    width: 200px;
+    height: 5px;
+    border-radius: 25px;
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    transition: transform .2s;
+}
+
+.rounded-corner-box:hover{
+    transform: scale(1.2);
+}
+
+.skills{
+    margin-top: 300px;
+    text-align: center;
+}
+
+.padding-table-skills{
+    padding: 50px;
+}
+
+.img-skills{
+    width: 150px;
+    transition: transform .2s;
+}
+
+.img-skills:hover{
+    transform: scale(1.5);
+}
+
+.portos{
+margin-top: 300px;
+margin-left: -50px;
+}
+
+.portos img{
+    width: 400px;
+    margin: 30px;
+    outline: solid 10px #fe4d6a;
+    transition: transform .2s;
+}
+
+/* .portos img:hover{
+    transform: scale(1.5);
+} */
+
+
+
 
