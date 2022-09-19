@@ -1,0 +1,179 @@
+* {
+    /* keseluruhan */
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+}
+
+body{
+    background-color: #FFFFFF;
+}
+
+.all{
+    margin-left: 100px; margin-right: 100px;
+    color:#4F3C8B;
+}
+
+
+.top{
+    
+}
+
+#nav-bar {
+    /* agar navigasi ada di kanan */
+    float: right;
+}
+
+.redish {
+    /* beberapa text memerlukan warna ini */
+    color:#F62436;
+}
+
+#nav-bar {
+    /* agar list navbar tidak ada bullets/titik */
+    list-style-type: none;
+    /* agar navbar mengarah ke samping */
+    display: flex;
+    /* agar naik */
+    margin-top: -35px;
+}
+
+.no-dec {
+    /* agar link tidak muncul garis bawah */
+    text-decoration: none;
+    /* agar ada jarak */
+    padding-left: 30px;
+    color:#4F3C8B;
+}
+
+
+.no-dec:hover{
+    /* ketika kena mouse */
+    /* warna dibah menjadi kemerahan */
+    color:#F62436;
+    /* warna diubah dalam jangka 0.5s */
+    transition: color .5s;
+    
+}
+
+#halo{
+    margin-top: 100px;
+}
+
+.left-text{
+    width: 30%;
+}
+
+.images{
+    width: 400px;
+}
+
+
+.right-text{
+    float: right;
+    width: 40%;
+    margin-top: -700px;
+    margin-left: 100px;
+}
+
+.rounded-corner-box{
+    background-color:#F62436;
+    width: 200px;
+    height: 5px;
+    border-radius: 25px;
+    padding: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    transition: transform .2s;
+    color: #FFFFFF;
+}
+
+.rounded-corner-box:hover{
+    transform: scale(1.2);
+}
+
+.skills{
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.skills h2{
+    text-align: center;
+}
+
+.padding-table-skills{
+    padding: 50px;
+}
+
+.img-skills{
+    width: 150px;
+    transition: transform .2s;
+}
+
+.img-skills:hover{
+    transform: scale(1.5);
+}
+
+.portos{
+margin-top: 300px;
+margin-left: -100px;
+}
+.portos h1{
+    text-align: center;
+}
+
+.portos img{
+    width: 300px;
+    margin: 30px;
+    outline: solid 10px#F62436;
+    transition: transform .2s;
+}
+
+/* .portos img:hover{
+    transform: scale(1.5);
+} */
+
+.end{
+    margin-top: 200px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 200px;
+    background-color:#4F3C8B;
+    color: #FFFFFF;
+    width: 100%;
+    height: 300px;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-left: 0px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer td{
+    padding: 5px 10px;
+}
+
+footer tr{
+    padding: 5px 10px;
+}
+
+
+.tables-info{
+    text-align: center;
+}
+
+
+
+
