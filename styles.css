@@ -5,13 +5,12 @@
 }
 
 body{
-    
-    background-color: #3a3973;
+    background-color: #FFFFFF;
 }
 
 .all{
     margin-left: 100px; margin-right: 100px;
-    color: white;
+    color:#4F3C8B;
 }
 
 
@@ -26,7 +25,7 @@ body{
 
 .redish {
     /* beberapa text memerlukan warna ini */
-    color: #fe4d6a;
+    color:#F62436;
 }
 
 #nav-bar {
@@ -43,14 +42,14 @@ body{
     text-decoration: none;
     /* agar ada jarak */
     padding-left: 30px;
-    color: white;
+    color:#4F3C8B;
 }
 
 
 .no-dec:hover{
     /* ketika kena mouse */
     /* warna dibah menjadi kemerahan */
-    color: #fe4d6a;
+    color:#F62436;
     /* warna diubah dalam jangka 0.5s */
     transition: color .5s;
     
@@ -68,6 +67,7 @@ body{
     width: 400px;
 }
 
+
 .right-text{
     float: right;
     width: 40%;
@@ -76,7 +76,7 @@ body{
 }
 
 .rounded-corner-box{
-    background-color: #fe4d6a;
+    background-color:#F62436;
     width: 200px;
     height: 5px;
     border-radius: 25px;
@@ -84,6 +84,7 @@ body{
     padding-bottom: 30px;
     text-align: center;
     transition: transform .2s;
+    color: #FFFFFF;
 }
 
 .rounded-corner-box:hover{
@@ -91,10 +92,10 @@ body{
 }
 
 .skills{
-    margin-top: 100px;
+    margin-top: 300px;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    
 }
 
 .skills h2{
@@ -115,7 +116,7 @@ body{
 }
 
 .portos{
-margin-top: 200px;
+margin-top: 300px;
 margin-left: -100px;
 }
 .portos h1{
@@ -125,7 +126,7 @@ margin-left: -100px;
 .portos img{
     width: 300px;
     margin: 30px;
-    outline: solid 10px #fe4d6a;
+    outline: solid 10px#F62436;
     transition: transform .2s;
 }
 
@@ -141,14 +142,33 @@ margin-left: -100px;
 footer {
     text-align: center;
     margin-top: 200px;
-    background-color: white;
-    color: #3a3973;
+    background-color:#4F3C8B;
+    color: #FFFFFF;
     width: 100%;
-    height: 150px;
+    height: 300px;
     padding-top: 50px;
     margin-left: 0px;
     margin-left: 0px;
 }
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer td{
+    padding: 5px 10px;
+}
+
+footer tr{
+    padding: 5px 10px;
+}
+
 
 .tables-info{
     text-align: center;
