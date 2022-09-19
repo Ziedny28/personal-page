@@ -1,13 +1,19 @@
 * {
     /* keseluruhan */
-    background-color: #3a3973;
-    font-family: Helvetica;
-    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
 }
 
 body{
-    margin-left: 100px; margin-right: 100px
+    
+    background-color: #3a3973;
 }
+
+.all{
+    margin-left: 100px; margin-right: 100px;
+    color: white;
+}
+
 
 .top{
     
@@ -37,6 +43,7 @@ body{
     text-decoration: none;
     /* agar ada jarak */
     padding-left: 30px;
+    color: white;
 }
 
 
@@ -50,7 +57,7 @@ body{
 }
 
 #halo{
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .left-text{
@@ -64,7 +71,7 @@ body{
 .right-text{
     float: right;
     width: 40%;
-    margin-top: -600px;
+    margin-top: -700px;
     margin-left: 100px;
 }
 
@@ -84,7 +91,13 @@ body{
 }
 
 .skills{
-    margin-top: 300px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.skills h2{
     text-align: center;
 }
 
@@ -102,12 +115,15 @@ body{
 }
 
 .portos{
-margin-top: 300px;
-margin-left: -50px;
+margin-top: 200px;
+margin-left: -100px;
+}
+.portos h1{
+    text-align: center;
 }
 
 .portos img{
-    width: 400px;
+    width: 300px;
     margin: 30px;
     outline: solid 10px #fe4d6a;
     transition: transform .2s;
@@ -116,6 +132,27 @@ margin-left: -50px;
 /* .portos img:hover{
     transform: scale(1.5);
 } */
+
+.end{
+    margin-top: 200px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin-top: 200px;
+    background-color: white;
+    color: #3a3973;
+    width: 100%;
+    height: 150px;
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-left: 0px;
+}
+
+.tables-info{
+    text-align: center;
+}
 
 
 
